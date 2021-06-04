@@ -40,9 +40,9 @@ POST - ./database/playerProfile - creates a new profile with key-value-pairs in 
     blocks:0.1
     turnovers:0.4
     fouls:0.4
-GET - ./playerProfile/byID/:player_id - gets profile with ID selected
-PUT - ./playerProfile/byID/:player_id - updates profile with ID selected (only need to enter desired field(s) to update the profile)
-DELETE - ./playerProfile/byID/:player_id - deletes profile with ID selected
+GET - ./database/playerProfile/byID/:player_id - gets profile with ID selected
+PUT - ./database/playerProfile/byID/:player_id - updates profile with ID selected (only need to enter desired field(s) to update the profile)
+DELETE - ./database/playerProfile/byID/:player_id - deletes profile with ID selected
 
 Queries retrieved from HW2
 GET - ./database/queryOne
