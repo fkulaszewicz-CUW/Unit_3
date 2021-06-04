@@ -45,9 +45,9 @@ PUT - ./playerProfile/byID/:player_id - updates profile with ID selected (only n
 DELETE - ./playerProfile/byID/:player_id - deletes profile with ID selected
 
 Queries retrieved from HW2
-GET - ./queryOne
-GET - ./queryTwo
-GET - ./queryThree
-GET - ./queryFour
-GET - ./queryFive
+GET - ./database/queryOne
+GET - ./database/queryTwo
+GET - ./database/queryThree
+GET - ./database/queryFour
+GET - ./database/queryFive
 ```
